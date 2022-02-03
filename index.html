@@ -1,17 +1,34 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Learning CSS</title>
+	<body>
+		<h1>White House CLoset</h1>
+		<p><em>Where fashion meets east</em></p>
+		<img src="images/download3.jpg" class="base">	
+		<p id="WH">White House Clothering brand has been providing their services since 1990. Here you get well designed clothes and stiching is up to the mark in reasonable rates.</p>	
+	</body>
+	<style type="text/css">
+		h1,p{
+			color:#37474F;
+			text-align: center;
+			font-size: 25px;
+		}	
+		#WH{
+			color:#0033FF;
+			margin-left: 250px;
+			margin-right:250px;
+			text-align: justify;
+			font-style: italic;
+		}
+		.base{
+			width: 150px;
+			height: 100px;
+			margin-left: 450px;
+			margin-right:400px;
+		}
+	</style>
 </head>
-<link rel="stylesheet" type="text/css" href="style1.css">
-<script type="text/javascript" src="javascript.js"></script>
 <body>
-	<input type="number" id="num1"><br>
-	<input type="number" id="num2"><br>
-	<button onclick="add()" class="btn">+</button>
-	<button onclick="sub()" class="btn">-</button>
-	<button onclick="mul()" class="btn">*</button>
-	<button onclick="div()" class="btn">/</button><br>
-	<input type="number"  id="res" disabled="true">
 </body>
 </html>
